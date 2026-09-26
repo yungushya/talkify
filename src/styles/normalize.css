@@ -1,0 +1,23 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,10 @@
+.page {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+
+  display: flex;
+
+  background: var(--color-bg);
+  border-inline: 1px solid var(--color-border);
+}

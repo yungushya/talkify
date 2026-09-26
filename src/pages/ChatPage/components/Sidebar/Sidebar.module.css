@@ -1,0 +1,44 @@
+.sidebar {
+  width: 320px;
+  height: 100%;
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  border-inline-end: 1px solid var(--color-border);
+}
+
+.sidebarHeader {
+  height: 60px;
+
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  background: var(--gradient-accent);
+
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.logoutButton {
+  margin: auto 16px 16px;
+  padding: 10px 12px;
+
+  color: var(--color-text);
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+
+  transition: background 0.15s ease;
+
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.logoutButton:hover {
+  background: var(--color-surface);
+}
